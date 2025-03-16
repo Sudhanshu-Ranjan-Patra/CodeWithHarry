@@ -11,5 +11,8 @@ myEmitter.on('waterFull', () => {
 });
 
 myEmitter.emit('waterFull');
-
+setTimeout(()=>{
+  console.log('A reminder!!!')
+},2000)
 myEmitter.emit('event');
+  
